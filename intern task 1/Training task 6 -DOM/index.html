@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DOM Manipulation Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    #content {
+      margin-top: 20px;
+      font-size: 20px;
+      color: #333;
+    }
+    button {
+      padding: 10px 15px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Change DOM Content Example</h1>
+
+  <button onclick="changeContent()">--Click to Change Content--</button>
+
+  <div id="content">
+    This is the original content.
+  </div>
+
+  <script>
+    function changeContent() {
+      document.getElementById("content").textContent = "JavaScript is a high-level, often just-in-time compiled, dynamic programming language that conforms to the ECMAScript standard according to Wikipedia. It's primarily known for its role in web development, where it's used to create interactive and dynamic website content, but it also has applications in server-side development and other areas";
+    }
+  </script>
+
+</body>
+</html>
