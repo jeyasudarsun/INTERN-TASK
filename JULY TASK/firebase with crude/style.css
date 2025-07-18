@@ -1,0 +1,61 @@
+h1{
+    text-align: center;
+    margin-top: 5%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+form .form-group{
+    display: flex;
+}
+form .form-group label{
+    min-width: 50px;
+}
+form .form-group input{
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+table{
+    margin: 5% auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    border-collapse: collapse;
+    align-self: center;
+    text-align: center;
+    /* display: flex;
+    flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+table td,th{
+    border: 1px solid black;
+    padding: 10px;
+    
+}
+.btn-edit{
+    color: rgb(48, 93, 228);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+}
+.btn-delete{
+    color: rgb(199, 65, 56);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+     font-size: large;
+}
+#btn-save{
+    background-color:rgb(23, 85, 200);
+     color : white; 
+     cursor: pointer;
+     border-radius : 5px;
+     outline: none;
+     border: 1px solid rgb(23, 85, 200);
+     font-size: 15px;
+}
